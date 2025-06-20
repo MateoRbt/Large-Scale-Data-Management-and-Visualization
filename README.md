@@ -5,7 +5,7 @@ This project presents an end-to-end data pipeline that demonstrates how data is 
 
 Tools & Libraries
 
-    Python
+1) Python
 
     Beautiful Soup (URL scraping)
 
@@ -17,21 +17,21 @@ Tools & Libraries
 
     BERTopic (Topic modeling)
 
-    MySQL
+2) MySQL
 
-    Power BI
+3) Power BI
 ## Workflow
 
-    Scraping: Articles from Business Insider and OHLCV data via yfinance
+1) Scraping: Articles from Business Insider and OHLCV data via yfinance
 
-    Processing:
+2) Processing:
 
-        FinBERT for sentiment
+    FinBERT for sentiment
 
-        KeyBERT for keywords
+    KeyBERT for keywords
 
-        BERTopic for topic modeling
+    BERTopic for topic modeling
 
-    Storage: Data saved in MySQL using SQLAlchemy
+3) Storage: Data saved in MySQL using SQLAlchemy
 
-    Visualization: Dashboards in Power BI showing sentiment, topics, and market metrics
+4) Visualization: Dashboards in Power BI showing sentiment, topics, and market metrics
