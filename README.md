@@ -20,3 +20,18 @@ Tools & Libraries
     MySQL
 
     Power BI
+## Workflow
+
+    Scraping: Articles from Business Insider and OHLCV data via yfinance
+
+    Processing:
+
+        FinBERT for sentiment
+
+        KeyBERT for keywords
+
+        BERTopic for topic modeling
+
+    Storage: Data saved in MySQL using SQLAlchemy
+
+    Visualization: Dashboards in Power BI showing sentiment, topics, and market metrics
